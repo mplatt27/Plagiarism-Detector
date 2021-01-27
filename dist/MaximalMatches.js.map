@@ -1,0 +1,1 @@
+{"version":3,"file":"MaximalMatches.js","sourceRoot":"","sources":["../MaximalMatches.ts"],"names":[],"mappings":";;AAGA,MAAM,cAAc;IAEe,qEAAqE;IACrE,kEAAkE;IAEjG,gBAAe,CAAC;IAEhB,IAAI,CAAC,KAAa;QACd,OAAO,IAAI,CAAA;IACf,CAAC;IAED,MAAM,CAAC,KAAa;QAChB,OAAO,IAAI,CAAA;IACf,CAAC;IAED,GAAG,CAAC,KAAa;QACjB,OAAO,IAAI,CAAA;IACX,CAAC;CAEJ;AAED,kBAAe,cAAc,CAAA"}

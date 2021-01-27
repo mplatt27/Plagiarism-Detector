@@ -1,0 +1,208 @@
+@import '~antd/dist/antd.css';
+
+/* The upper bar of the page that contains the header text. */
+
+.TopBar{
+  color: white;
+  background-color: rgb(129, 13, 13);
+  text-align: center;
+  padding: 10px;
+  height: 230px;
+}
+
+/* The area immediately below the TopBar that contains the introductory sentence and instructions. */
+
+.UploaderArea {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-style: italic;
+}
+
+/* The button for uploading the currently selected files to the server. */
+
+.UploadButton {
+  background-color: rgb(129, 13, 13);
+  color: white;
+  border-radius: 5px;
+}
+
+/* The area of the page displaying the currently selected files. */
+
+.Uploaders {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* The space between the two background boxes of the areas in which
+the project files are displayed. */
+
+.FU1 {
+  margin-right: 50px;
+}
+
+/* The text that appears within the upper bar at the top of the page. */
+
+.CopyCatHeader {
+  font-size: 60px;
+}
+
+/* The highlight properties for elements that are the same between two uploaded and compared files. */
+
+mark {
+  background-color: yellow; 
+  color: black;
+}
+
+/* The background box of the area in which the files for Project 1 will be displayed. */
+
+.OutputArea1{
+  background-color: rgb(223, 223, 223);
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  width: 650px;
+  padding: 20px;
+  color: black;
+  align-content: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  margin-right: -50px;
+}
+
+/* The background box of the area in which the files for Project 2 will be displayed. */
+
+.OutputArea2{
+  background-color: rgb(223, 223, 223);
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  width: 650px;
+  padding: 20px;
+  color: black;
+  align-content: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  margin-left: -50px;
+}
+
+/* The area in which each individual file for Project 1 will be displayed (on top of OutputArea1). */
+
+.OutputArea1 pre{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 10px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* The area in which each individual file for Project 2 will be displayed (on top of OutputArea2). */
+
+.OutputArea2 pre{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 10px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+/* The labels identifying each project at the top of each output area. */
+
+.OutputHeader {
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+/* The buttons for detecting plagiarism between two uploaded projects and for resetting
+the program to it's initial state, clearing the page of any previously uploaded files. */
+
+.DetectAndResetButtons{
+  background-color: rgb(129, 13, 13);
+  width: 200px;
+  align-self: center;
+  color: white;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+/* The labels identifying each project at the top of each uploading area. */
+
+.UploaderHeader {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* The background box of each uploading area. */
+
+.UploaderBox {
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+/* The width of the background box of each uploading area. */
+
+.UploaderForm {
+  width: 300px;
+}
+
+/* The properties of the area below the buttons for detecting plagiarism and resetting the state
+of the application to be changed upon pressing the Reset button. */
+
+.UpdateResetButtonArea {
+  padding-bottom: 5px;
+  margin: 0 auto;
+  margin-top: -85px;
+}
+
+/* The default icon representing the application that is displayed on the page during loading. */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* The animation properties of the app logo. */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* The text to be displayed alongside the app logo during loading. */
+
+.App-header {
+  background-color: #342828;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* The properties of links on the loading page. */
+
+.App-link {
+  color: #61dafb;
+}
+
+/* The definition of the spinning animation that is implemented by the app logo on the loading page. */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

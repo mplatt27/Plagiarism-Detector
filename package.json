@@ -1,0 +1,30 @@
+{
+  "name": "5500-team26",
+  "version": "0.0.0",
+  "description": "phase c",
+  "index": "index.ts",
+  "scripts": {
+    "test": "ts-mocha **/*.spec.ts",
+    "run": "tsc && node dist/index.js"
+  },
+  "author": "Arielle Slatus",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/traverse": "^7.12.5",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "html-react-parser": "^0.14.2",
+    "mocha": "^8.0.1",
+    "sanitize-html": "^2.1.2",
+    "ts-md5": "^1.2.7",
+    "ts-mocha": "^7.0.0",
+    "typescript": "^3.9.6"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@types/node": "^14.10.1"
+  }
+}
